@@ -1,0 +1,23 @@
+{
+  "name": "meeting-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend for Meeting Action Items Tracker",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --import dotenv/config server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "@google/genai": "^1.41.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^6.22.0",
+    "sqlite3": "^5.1.7"
+  }
+}
