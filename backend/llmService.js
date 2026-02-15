@@ -7,9 +7,6 @@ dotenv.config();
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 const systemPrompt = `You are an expert at analyzing meeting transcripts. Extract action items as a JSON array. 
 If there are no action items, return an empty array: []
-
-Convert ALL relative dates to absolute dates in DD-MM-YYYY format based on today's date:
-- Do NOT shift dates forward or backward.
 `
 // - "tomorrow" → next day's date
 // - "Monday", "Tuesday", etc. → next occurrence of that weekday

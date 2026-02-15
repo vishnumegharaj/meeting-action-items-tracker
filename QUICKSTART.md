@@ -6,11 +6,11 @@ Get the Meeting Action Items Tracker running in 5 minutes!
 
 ✅ Node.js 18+ installed  
 ✅ npm installed  
-✅ Anthropic API key ([Get free key](https://console.anthropic.com/))
+✅ Gemini API key ([Get free key](https://aistudio.google.com/app/apikey))
 
 ## Step 1: Get the API Key (2 minutes)
 
-1. Go to https://console.anthropic.com/
+1. Go to https://aistudio.google.com/app/apikey
 2. Sign up or log in
 3. Go to API Keys section
 4. Click "Create Key"
@@ -34,14 +34,14 @@ cp .env.example .env
 
 **On Mac/Linux:**
 ```bash
-echo "ANTHROPIC_API_KEY=sk-ant-your-key-here" > .env
+echo "GEMINI_API_KEY=sk-gemini-your-key-here" > .env
 echo "PORT=3001" >> .env
 echo "FRONTEND_URL=http://localhost:5173" >> .env
 ```
 
 **On Windows (PowerShell):**
 ```powershell
-"ANTHROPIC_API_KEY=sk-ant-your-key-here" | Out-File -FilePath .env
+"GEMINI_API_KEY=sk-gemini-your-key-here" | Out-File -FilePath .env
 "PORT=3001" | Out-File -FilePath .env -Append
 "FRONTEND_URL=http://localhost:5173" | Out-File -FilePath .env -Append
 ```
@@ -125,7 +125,7 @@ lsof -ti:5173 | xargs kill -9
 ### API Key not working
 - Make sure there are no spaces in the .env file
 - Make sure the key starts with `sk-ant-`
-- Check you have credits in your Anthropic account
+- Check you have credits in your Gemini account
 
 ### Dependencies not installing
 ```bash

@@ -6,9 +6,9 @@
 **Email**: vishnumegharaj87@gmail.com  
 **Phone**: +91 8978415028  
 **Location**: Hyderabad, Telangana, India  
-**LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/vishnu-megharaj)  
-**Portfolio**: [Portfolio Website](your-portfolio-link)  
-**GitHub**: [GitHub Profile](https://github.com/yourusername)
+**LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/vishnu-megharaj-1b45011a4/)  
+**Portfolio**: [Portfolio Website](https://vishnumegharaj.vercel.app/)  
+**GitHub**: [GitHub Profile](https://github.com/vishnumegharaj)
 
 ---
 
@@ -111,7 +111,7 @@ Created an AI-powered support agent using React and OpenAI.
 
 ### Meeting Action Items Tracker (This Project)
 **Tech Stack**: React, Vite, Node.js, Express, SQLite, Google Gemini API, Tailwind CSS  
-**Links**: [GitHub](#) | [Live Demo](#)
+**Links**: [GitHub](https://github.com/vishnumegharaj/meeting-action-items-tracker) | [Live Demo](https://meeting-action-items-tracker-phi.vercel.app/)
 
 Built an AI-powered meeting action items tracker that automatically extracts and manages action items from meeting transcripts.
 

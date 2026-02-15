@@ -16,8 +16,8 @@ An AI-powered web application that automatically extracts and manages action ite
 
 ## 🚀 Live Demo
 
-**Frontend**: [Your Vercel URL]  
-**Backend**: [Your Render/Railway URL]
+**Frontend**: [\[Vercel URL\] ](https://meeting-action-items-tracker-phi.vercel.app/) 
+**Backend**: [\[Backend URL\]](https://meeting-tracker-backend-tnjj.onrender.com)
 
 ## 📋 Prerequisites
 
@@ -30,8 +30,8 @@ An AI-powered web application that automatically extracts and manages action ite
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd meeting-tracker
+git clone https://github.com/vishnumegharaj/meeting-action-items-tracker.git
+cd meeting-action-items-tracker
 ```
 
 ### 2. Backend Setup
