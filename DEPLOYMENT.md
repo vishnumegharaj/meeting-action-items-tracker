@@ -73,7 +73,7 @@ Start Command: npm start
 ### Step 4: Add Environment Variables
 ```
 ANTHROPIC_API_KEY = your_anthropic_api_key
-FRONTEND_URL = https://your-frontend-url.vercel.app
+FRONTEND_URL = https://your-frontend-url.vercel.app l
 PORT = 3001
 ```
 
