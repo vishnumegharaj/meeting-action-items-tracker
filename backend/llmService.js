@@ -9,15 +9,15 @@ const systemPrompt = `You are an expert at analyzing meeting transcripts. Extrac
 If there are no action items, return an empty array: []
 
 Convert ALL relative dates to absolute dates in DD-MM-YYYY format based on today's date:
-- "tomorrow" → next day's date
-- "Monday", "Tuesday", etc. → next occurrence of that weekday
-- "next week" → 7 days from today
-- "end of week" → upcoming Friday
-- "end of month" → last day of current month
-- "EOD", "today" → today's date
-- "Feb 20", "March 15" → convert to DD-MM-YYYY (assume current year)
 - Do NOT shift dates forward or backward.
 `
+// - "tomorrow" → next day's date
+// - "Monday", "Tuesday", etc. → next occurrence of that weekday
+// - "next week" → 7 days from today
+// - "end of week" → upcoming Friday
+// - "end of month" → last day of current month
+// - "EOD", "today" → today's date
+// - "Feb 20", "March 15" → convert to DD-MM-YYYY (assume current year)
 export async function extractActionItems(transcript) {
   try {
     const response = await ai.models.generateContent({
